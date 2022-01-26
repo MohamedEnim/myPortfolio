@@ -1,0 +1,26 @@
+.asideRow {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--bg-black-50);
+  color: var(--text-black-900);
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.asideRow a {
+  color: var(--text-black-900);
+  display: inline-flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.asideRow a span {
+  padding-left: 15px;
+}
+
+.asideRow--active {
+  color: var(--skin-color) !important;
+}

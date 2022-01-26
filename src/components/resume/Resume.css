@@ -1,0 +1,138 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume__title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.resume__title h2 {
+  font-size: 40px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  position: relative;
+}
+
+.resume__title h2::before {
+  content: "";
+  height: 4px;
+  width: 50px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.resume__title h2::after {
+  content: "";
+  height: 4px;
+  width: 25px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+}
+
+.resume__education {
+  display: flex;
+  flex: 1;
+  background-color: var(--bg-black-100);
+}
+
+.resume__education .row {
+  flex: 1;
+}
+
+.resume__education h3.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+}
+
+.resume__experience {
+  display: flex;
+  flex: 1;
+  background-color: var(--bg-black-100);
+}
+
+.resume__experience .row {
+  flex: 1;
+}
+
+.resume__experience h3.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+}
+
+.resume__skills {
+  display: flex;
+  flex: 1;
+  background-color: var(--bg-black-100);
+}
+
+.resume__skills .row {
+  flex: 1;
+}
+
+.resume__skills h3.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+}
+
+.timeline-box {
+  flex: 0 0 100%;
+  display: flex;
+}
+
+.timeline {
+  padding: 30px 15px;
+  flex: 1;
+  position: relative;
+}
+
+@media (max-width: 605px) {
+  .resume__education {
+    flex-direction: column;
+  }
+
+  .resume__experience {
+    flex-direction: column;
+  }
+
+  .resume__skills {
+    flex-direction: column;
+  }
+  .resume__education h3.title {
+    font-size: 22px;
+    margin-bottom: 2px;
+    flex: 1;
+  }
+  .resume__experience h3.title {
+    font-size: 22px;
+    margin-bottom: 2px;
+    flex: 1;
+  }
+  .resume__skills h3.title {
+    font-size: 22px;
+    margin-bottom: 2px;
+    flex: 1;
+  }
+}

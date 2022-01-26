@@ -1,0 +1,209 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  color: var(--text-black-900);
+}
+
+.home__btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: white;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+}
+.home__btn:hover {
+  transform: scale(1.05);
+}
+
+.home__info {
+  flex: 0 0 60%;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3.home__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+h3.home__title span {
+  font-family: "Clicker Script", cursive;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--skin-color);
+}
+
+h3.home__description {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.typing {
+  color: var(--skin-color);
+}
+
+.home__socialMedia {
+  margin: 15px 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.home__facebook .css-i4bv87-MuiSvgIcon-root {
+  color: #3b5998 !important;
+}
+.m-r {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.home__github .css-i4bv87-MuiSvgIcon-root {
+  color: #00405d !important;
+}
+
+.home__linkedIn .css-i4bv87-MuiSvgIcon-root {
+  color: #0077b5 !important;
+}
+
+.home__IconBtn.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  background-color: white !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.home__img {
+  flex: 0 0 40%;
+  max-width: 40%;
+  text-align: center;
+  position: relative;
+
+  height: 300px;
+}
+
+.home__img::after {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-bottom: 10px solid var(--skin-color);
+  border-right: 10px solid var(--skin-color);
+  right: 40px;
+  bottom: -20px;
+}
+
+.home__img::before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-top: 10px solid var(--skin-color);
+  border-left: 10px solid var(--skin-color);
+  left: 40px;
+  top: -20px;
+}
+.home__img img {
+  object-fit: cover;
+  border-radius: 2px;
+  height: 300px;
+  width: 65%;
+  opacity: 0.9;
+}
+
+@media (max-width: 1252px) {
+  h3.home__title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 15px 0;
+  }
+  h3.home__title span {
+    font-family: "Clicker Script", cursive;
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--skin-color);
+  }
+  h3.home__description {
+    font-size: 28px;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 950px) {
+  .home__img {
+    display: none;
+  }
+  .home__info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 928px) {
+  h3.home__title {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 15px 0;
+  }
+  h3.home__title span {
+    font-family: "Clicker Script", cursive;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--skin-color);
+  }
+  h3.home__description {
+    font-size: 26px;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 537px) {
+  h3.home__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 15px 0;
+  }
+  h3.home__title span {
+    font-family: "Clicker Script", cursive;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--skin-color);
+  }
+  h3.home__description {
+    font-size: 22px;
+    margin: 15px 0;
+  }
+  .home__btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 444px) {
+  h3.home__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0;
+  }
+  h3.home__title span {
+    font-family: "Clicker Script", cursive;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--skin-color);
+  }
+  h3.home__description {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+}

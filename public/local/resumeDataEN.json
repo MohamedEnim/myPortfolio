@@ -1,0 +1,239 @@
+{
+  "aside": {
+    "row": [
+      {
+        "title": "Home",
+        "icon": "HomeIcon",
+        "id": "home"
+      },
+      {
+        "title": "About",
+        "icon": "PersonIcon",
+        "id": "about"
+      },
+      {
+        "title": "Resume",
+        "icon": "FormatListBulletedIcon",
+        "id": "resume"
+      },
+      {
+        "title": "Projects",
+        "icon": "BusinessCenterIcon",
+        "id": "projects"
+      },
+      {
+        "title": "Contact",
+        "icon": "ForumIcon",
+        "id": "contact"
+      }
+    ]
+  },
+
+  "home": {
+    "messageName": "Hello, my name is",
+    "name": "Mohamed Ben Taher",
+    "messageOccupation": " I' m a",
+    "occupation": "Web developer",
+    "image": "portimg.jpg",
+    "buttonMessage": "More About Me"
+  },
+
+  "aboutMe": {
+    "title": "About Me",
+    "description": "Hello, I'm Mohamed ben Taher Fullstack Developer I master front-end techniques, including HTML, Css, and Javascript with ReactJs and Angular frameworks I also do back-end, and particularly nodejs and spring boot. For the project management part, I have knowledge of the agile method as well as the Git tool for project version management. Currently looking for a job",
+    "resumedownload": "http://papareact.com",
+    "buttonDownload": "Download Cv",
+    "buttonHire": "Hire Me",
+    "personalInfoLeft": [
+      {
+        "title": "Residence",
+        "content": "Tunisia"
+      },
+      {
+        "title": "Degree",
+        "content": "Engineer"
+      },
+      {
+        "title": "Birthday",
+        "content": "21 Juin 1990"
+      }
+    ],
+    "personalInfoRight": [
+      {
+        "title": "Email",
+        "content": "medbentaher.enim@gmail.com"
+      },
+      {
+        "title": "Phone",
+        "content": "+216 50 100 059"
+      },
+      {
+        "title": "Freelance",
+        "content": "Available"
+      }
+    ]
+  },
+
+  "resume": {
+    "title": "Resume",
+    "education": {
+      "educationTitle": "Education",
+      "educationDetails": [
+        {
+          "startDate": "2011",
+          "endDate": "2014",
+          "school": "National Engineering School of Monastir",
+          "description": "Engineer's degree, Electrical and Electronics Engineering"
+        },
+        {
+          "startDate": "2009",
+          "endDate": "2011",
+          "school": "Faculty of Sciences, University of Gabes",
+          "description": "Preparatory Cycles to Engineering Studies, physics chemistry"
+        },
+        {
+          "startDate": "2008",
+          "endDate": "2009",
+          "school": "School Secondary Nefta",
+          "description": "Scientific Baccalaureate, Mathematics "
+        }
+      ]
+    },
+
+    "work": {
+      "workTitle": "Experience",
+      "workDetails": [
+        {
+          "startDate": "2020",
+          "endDate": "present",
+          "title": "Freelancer",
+          "description": "Develop fullstack application using Angular, React JS, Node JS et Spring Boot"
+        },
+        {
+          "startDate": "2018",
+          "endDate": "2099",
+          "title": "Electrical Supervisor at CERI",
+          "description": "Supervise and monitor all electrical construction work on site"
+        },
+        {
+          "startDate": "2016",
+          "endDate": "2017",
+          "title": "Maintenance Engineer at SSI",
+          "description": "Implementation and Repair Leibinger printer"
+        }
+      ]
+    },
+
+    "skills": {
+      "skillsTitle": "Skills",
+      "skillsDetails": [
+        {
+          "name": "Javascript",
+          "level": "70%"
+        },
+        {
+          "name": "Python",
+          "level": "70%"
+        },
+        {
+          "name": "Java",
+          "level": "60%"
+        },
+        {
+          "name": "ReactJs",
+          "level": "80%"
+        },
+        {
+          "name": "React Native",
+          "level": "50%"
+        },
+        {
+          "name": "Angular",
+          "level": "85%"
+        },
+        {
+          "name": "NodeJs",
+          "level": "70%"
+        },
+        {
+          "name": "Spring boot",
+          "level": "60%"
+        },
+        {
+          "name": "Web Development",
+          "level": "80%"
+        }
+      ]
+    }
+  },
+
+  "portfolio": {
+    "portfolioTitle": "Projects",
+    "portfolioMessage": "My Last Projects",
+    "projects": [
+      {
+        "title": "Online Store",
+        "imageUrl": "images/pic-6.png",
+        "url": "https://github.com/MohamedEnim?tab=repositories",
+        "description": "using Angular, Spring boot, MySQL"
+      },
+      {
+        "title": "Gmail-clone",
+        "imageUrl": "images/pic-7.png",
+        "url": "https://github.com/MohamedEnim/Gmail-clone",
+        "description": "using ReactJS, Redux, Firebase"
+      },
+      {
+        "title": "Amazone-clone",
+        "imageUrl": "images/pic-1.png",
+        "url": "https://github.com/MohamedEnim/amazone-clone",
+        "description": "using ReactJs, Redux, Stripe, Firebase"
+      },
+      {
+        "title": "Netflix-clone",
+        "imageUrl": "images/pic-4.png",
+        "url": "https://github.com/MohamedEnim?tab=repositories",
+        "description": "using ReactJs, Redux, NodeJs, MongoDB"
+      },
+      {
+        "title": "Dashboard, apis for movies mobile application",
+        "imageUrl": "images/pic-5.png",
+        "url": "https://github.com/MohamedEnim?tab=repositories",
+        "description": "using Angular, NodeJs, MongoDB"
+      },
+      {
+        "title": "Covid-19 tracker",
+        "imageUrl": "images/pic-3.png",
+        "url": "https://github.com/MohamedEnim/Covid-19-Tracker",
+        "description": "using ReactJS, LeafletJS, chartJs, Disease.sh API services"
+      }
+    ]
+  },
+
+  "contact": {
+    "contactTitle": "Contact Me",
+    "contactMessage": "Have You Any Questions",
+    "contactSubTitle": "I'M AT YOUR SERVICES",
+    "buttonTitle": "Send Message",
+    "contactDetails": [
+      {
+        "title": "Call Me On",
+        "content": "+216 50 100 059",
+        "icon": "LocalPhoneIcon"
+      },
+      {
+        "title": "Email",
+        "content": "medbentaher.enim@gmail.com",
+        "icon": "EmailIcon"
+      }
+    ],
+    "formTitle": "SEND ME AN EMAIL",
+    "formSubTitle": " I'M VERY RESPOSIVE TO MESSAGES",
+    "placeholderName": "Name",
+    "placeholderEmail": "Email",
+    "placeholderSubject": "Subject",
+    "placeholderMsg": "Message",
+    "emailSent": "Your email is successfully sent",
+    "emailFailed": "Your email is failed to send"
+  }
+}

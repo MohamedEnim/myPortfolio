@@ -1,0 +1,82 @@
+/* Style switcher */
+.switcher {
+  position: fixed;
+  right: 0px;
+  top: 20px;
+  padding: 15px;
+  width: 200px;
+  border: 1px solid var(--bg-black-50);
+  background: var(--bg-black-100);
+  z-index: 101;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  transform: translateX(100%);
+}
+.switcher h4 {
+  margin: 0 0 10px;
+  color: var(--text-black-700);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.switcher__styleSitcherToggler {
+  top: 0;
+}
+.switcher__icon {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 20px;
+  background: var(--bg-black-100);
+  color: var(--text-black-900);
+  right: 100%;
+  border: 1px solid var(--bg-black-50);
+  margin-right: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+.switcher__icon .css-i4bv87-MuiSvgIcon-root {
+  color: var(--skin-color) !important;
+}
+.switcher__day-night {
+  top: 45px;
+}
+.switcher__colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.switcher__colors .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  padding: 1.5px !important;
+}
+.switcher__colors span {
+  display: inline-block;
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.switcher__color-1 {
+  background: #ec1839;
+}
+.switcher__color-2 {
+  background: #fa5b0f;
+}
+.switcher__color-3 {
+  background: #37b182;
+}
+.switcher__color-4 {
+  background: #1854b4;
+}
+.switcher__color-5 {
+  background: #f021b2;
+}
+.switcher--open {
+  transform: translateX(-25px);
+}
+
+.switcher--hide {
+  display: none !important;
+}
