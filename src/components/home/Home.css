@@ -59,7 +59,7 @@ h3.home__description {
   width: 100%;
 }
 
-.home__facebook .css-i4bv87-MuiSvgIcon-root {
+.home__facebook i {
   color: #3b5998 !important;
 }
 .m-r {
@@ -67,11 +67,11 @@ h3.home__description {
   margin-right: 10px;
 }
 
-.home__github .css-i4bv87-MuiSvgIcon-root {
+.home__github i {
   color: #00405d !important;
 }
 
-.home__linkedIn .css-i4bv87-MuiSvgIcon-root {
+.home__linkedIn i {
   color: #0077b5 !important;
 }
 

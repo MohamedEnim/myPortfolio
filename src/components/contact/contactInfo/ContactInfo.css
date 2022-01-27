@@ -5,7 +5,7 @@
   margin-bottom: 60px;
 }
 
-.contact__icon .css-i4bv87-MuiSvgIcon-root {
+.contact__icon i {
   font-size: 25px !important;
   color: var(--skin-color) !important;
 }

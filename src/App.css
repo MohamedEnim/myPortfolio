@@ -77,8 +77,12 @@
   transition: all 0.3s ease;
 }
 
-.s-icontoggle .css-i4bv87-MuiSvgIcon-root {
+.s-icontoggle i {
   color: var(--skin-color) !important;
+}
+
+.m-l {
+  margin-left: 2px !important;
 }
 
 .togglerMenu--open {

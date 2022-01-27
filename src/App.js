@@ -12,8 +12,6 @@ import SelectLang from "./components/selectLang/SelectLang";
 import useLocalStorage from "use-local-storage";
 import { useTranslation } from "react-i18next";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
 
 function App() {
   const { i18n } = useTranslation();
@@ -103,7 +101,11 @@ function App() {
           }`}
         >
           <IconButton onClick={handelToggleMenu}>
-            {!toggleMenu ? <MenuIcon /> : <CloseIcon />}
+            {!toggleMenu ? (
+              <i className="fas fa-bars"></i>
+            ) : (
+              <i className="fas fa-times m-l"></i>
+            )}
           </IconButton>
         </div>
         <SelectLang

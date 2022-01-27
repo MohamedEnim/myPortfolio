@@ -1,8 +1,5 @@
 import React from "react";
 import "./Switcher.css";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
-import BrightnessLowIcon from "@mui/icons-material/BrightnessLow";
-import BrightnessHighIcon from "@mui/icons-material/BrightnessHigh";
 import IconButton from "@mui/material/IconButton";
 
 const Switcher = ({
@@ -20,12 +17,16 @@ const Switcher = ({
     >
       <div className="switcher__styleSitcherToggler switcher__icon">
         <IconButton onClick={switcherToggle}>
-          <BrightnessLowIcon />
+          <i className="fas fa-cog fa-spin"></i>
         </IconButton>
       </div>
       <div className="switcher__day-night switcher__icon">
         <IconButton onClick={modeToggle}>
-          {selectLight ? <DarkModeIcon /> : <BrightnessHighIcon />}
+          {selectLight ? (
+            <i className="fas fa-moon"></i>
+          ) : (
+            <i className="fas fa-sun"></i>
+          )}
         </IconButton>
       </div>
       <h4>Theme Colors</h4>

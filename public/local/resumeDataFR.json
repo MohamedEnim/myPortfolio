@@ -62,12 +62,12 @@
         "content": "medbentaher.enim@gmail.com"
       },
       {
-        "title": "Phone",
+        "title": "Portable",
         "content": "+216 50 100 059"
       },
       {
         "title": "Freelance",
-        "content": "Available"
+        "content": "Disponible"
       }
     ]
   },
@@ -170,37 +170,37 @@
     "projects": [
       {
         "title": "Online Store",
-        "imageUrl": "images/pic-6.png",
+        "imageUrl": "/images/pic-6.PNG",
         "url": "https://github.com/MohamedEnim?tab=repositories",
         "description": "utilisant Angular, Spring boot, MySQL"
       },
       {
         "title": "Gmail-clone",
-        "imageUrl": "images/pic-7.png",
+        "imageUrl": "/images/pic-7.PNG",
         "url": "https://github.com/MohamedEnim/Gmail-clone",
         "description": "utilisant ReactJS, Redux, Firebase"
       },
       {
         "title": "Amazone-clone",
-        "imageUrl": "images/pic-1.png",
+        "imageUrl": "/images/pic-1.PNG",
         "url": "https://github.com/MohamedEnim/amazone-clone",
         "description": "utilisant ReactJs, Redux, Stripe, Firebase"
       },
       {
         "title": "Netflix-clone",
-        "imageUrl": "images/pic-4.png",
+        "imageUrl": "/images/pic-4.PNG",
         "url": "https://github.com/MohamedEnim?tab=repositories",
         "description": "utilisant ReactJs, Redux, NodeJs, MongoDB"
       },
       {
         "title": "Dashboard, apis for movies mobile application",
-        "imageUrl": "images/pic-5.png",
+        "imageUrl": "/images/pic-5.PNG",
         "url": "https://github.com/MohamedEnim?tab=repositories",
         "description": "utilisant Angular, NodeJs, MongoDB"
       },
       {
         "title": "Covid-19 tracker",
-        "imageUrl": "images/pic-3.png",
+        "imageUrl": "/images/pic-3.png",
         "url": "https://github.com/MohamedEnim/Covid-19-Tracker",
         "description": "utilisant ReactJS, LeafletJS, chartJs, Disease.sh API services"
       }
@@ -215,12 +215,12 @@
       {
         "title": "Appelez-moi sur",
         "content": "+216 50 100 059",
-        "icon": "LocalPhoneIcon"
+        "icon": "fas fa-mobile"
       },
       {
         "title": "Email",
         "content": "medbentaher.enim@gmail.com",
-        "icon": "EmailIcon"
+        "icon": "fas fa-envelope-square"
       }
     ],
     "formTitle": "ENVOIE-MOI UN EMAIL",

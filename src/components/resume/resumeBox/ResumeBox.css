@@ -23,11 +23,9 @@
   position: absolute;
   left: -4px;
   top: 0;
-}
-
-.resume__icon.css-i4bv87-MuiSvgIcon-root {
   background-color: var(--bg-black-100) !important;
   color: var(--skin-color) !important;
+  font-size: 21px;
 }
 
 .timeline-date {

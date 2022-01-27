@@ -1,8 +1,5 @@
 import React from "react";
 import "./Home.css";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import IconButton from "@mui/material/IconButton";
 
 const Home = ({ data, selected, setSelected }) => {
@@ -32,7 +29,7 @@ const Home = ({ data, selected, setSelected }) => {
                 rel="noreferrer"
               >
                 <IconButton className="home__IconBtn home__linkedIn">
-                  <LinkedInIcon />
+                  <i className="fab fa-linkedin"></i>
                 </IconButton>
               </a>
               <a
@@ -42,7 +39,7 @@ const Home = ({ data, selected, setSelected }) => {
                 rel="noreferrer"
               >
                 <IconButton className="home__IconBtn home__github">
-                  <GitHubIcon />
+                  <i className="fab fa-github-square"></i>
                 </IconButton>
               </a>
               <a
@@ -51,7 +48,7 @@ const Home = ({ data, selected, setSelected }) => {
                 rel="noreferrer"
               >
                 <IconButton className="home__IconBtn home__facebook">
-                  <FacebookIcon />
+                  <i className="fab fa-facebook-square"></i>
                 </IconButton>
               </a>
             </div>

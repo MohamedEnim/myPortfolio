@@ -173,37 +173,37 @@
     "projects": [
       {
         "title": "Online Store",
-        "imageUrl": "images/pic-6.png",
+        "imageUrl": "/images/pic-6.PNG",
         "url": "https://github.com/MohamedEnim?tab=repositories",
         "description": "using Angular, Spring boot, MySQL"
       },
       {
         "title": "Gmail-clone",
-        "imageUrl": "images/pic-7.png",
+        "imageUrl": "/images/pic-7.PNG",
         "url": "https://github.com/MohamedEnim/Gmail-clone",
         "description": "using ReactJS, Redux, Firebase"
       },
       {
         "title": "Amazone-clone",
-        "imageUrl": "images/pic-1.png",
+        "imageUrl": "/images/pic-1.PNG",
         "url": "https://github.com/MohamedEnim/amazone-clone",
         "description": "using ReactJs, Redux, Stripe, Firebase"
       },
       {
         "title": "Netflix-clone",
-        "imageUrl": "images/pic-4.png",
+        "imageUrl": "/images/pic-4.PNG",
         "url": "https://github.com/MohamedEnim?tab=repositories",
         "description": "using ReactJs, Redux, NodeJs, MongoDB"
       },
       {
         "title": "Dashboard, apis for movies mobile application",
-        "imageUrl": "images/pic-5.png",
+        "imageUrl": "/images/pic-5.PNG",
         "url": "https://github.com/MohamedEnim?tab=repositories",
         "description": "using Angular, NodeJs, MongoDB"
       },
       {
         "title": "Covid-19 tracker",
-        "imageUrl": "images/pic-3.png",
+        "imageUrl": "/images/pic-3.PNG",
         "url": "https://github.com/MohamedEnim/Covid-19-Tracker",
         "description": "using ReactJS, LeafletJS, chartJs, Disease.sh API services"
       }
@@ -219,12 +219,12 @@
       {
         "title": "Call Me On",
         "content": "+216 50 100 059",
-        "icon": "LocalPhoneIcon"
+        "icon": "fas fa-mobile"
       },
       {
         "title": "Email",
         "content": "medbentaher.enim@gmail.com",
-        "icon": "EmailIcon"
+        "icon": "fas fa-envelope-square"
       }
     ],
     "formTitle": "SEND ME AN EMAIL",

@@ -1,13 +1,15 @@
 import React from "react";
 import "./ResumeBox.css";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
-import SchoolIcon from "@mui/icons-material/School";
-import WorkIcon from "@mui/icons-material/Work";
 
 const ResumeBox = ({ startDate, endDate, title, description, education }) => {
   return (
     <div className="timeline-item">
-      { education ? <SchoolIcon className="resume__icon" />: <WorkIcon className="resume__icon" />}
+      {education ? (
+        <i className="fas fa-graduation-cap resume__icon"></i>
+      ) : (
+        <i className="fas fa-briefcase resume__icon"></i>
+      )}
       <h3 className="timeline-date">
         <CalendarTodayIcon />{" "}
         <span>

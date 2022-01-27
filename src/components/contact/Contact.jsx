@@ -4,7 +4,6 @@ import "./Contact.css";
 import Input from "./input/Input";
 import Textarea from "./textarea/Textarea";
 import ContactInfo from "./contactInfo/ContactInfo";
-import { KeysToComponentMap } from "../../utils/mapTocomponent";
 import { useForm } from "react-hook-form";
 import firebase from "./../../firebase";
 import { ToastContainer, toast } from "react-toastify";
@@ -73,7 +72,7 @@ const Contact = ({ data, selected }) => {
                 key={index}
                 title={item.title}
                 content={item.content}
-                icon={KeysToComponentMap[item.icon]}
+                icon={item.icon}
               />
             ))}
           </div>
