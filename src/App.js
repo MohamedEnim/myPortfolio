@@ -77,9 +77,10 @@ function App() {
     setTheme(newTheme);
   };
 
-  const handleSelectedLang = ({ target }) => {
+  const handleSelectedLang = (lang) => {
+    console.log(lang);
     i18n.changeLanguage(language === "en" ? "fr" : "en");
-    setLanguage(target.value);
+    setLanguage(lang);
   };
 
   const handelToggleMenu = () => {

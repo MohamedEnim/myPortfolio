@@ -11,51 +11,21 @@
   padding-left: 12px;
 }
 
-.selectLng__select {
+.selectLng__btn {
   height: 40px;
-  width: 50px;
+  width: 55px;
   color: var(--skin-color) !important;
   font-size: 20px;
   border: none;
   cursor: pointer;
   background-color: var(--bg-black-100);
   position: relative;
-  appearance: none;
-  margin-left: 10px;
-}
-.selectLng__select:active {
-  color: var(--skin-color) !important;
+  display: inline-block;
 }
 
-.selectLng
-  .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
-  color: var(--skin-color) !important;
-}
-.selectLng .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
-  color: var(--skin-color) !important;
-}
-
-.selectLng .css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
-  color: var(--skin-color) !important;
-}
-.selectLng .ss-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
-  color: var(--skin-color) !important;
-}
-
-.selectLng .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-  border-width: 0 !important;
-  height: 40px !important;
-}
-
-.selectLng .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-  height: 40px !important;
-}
-
-.selectLng .css-q8hpuo-MuiFormControl-root {
-  display: flex;
-  flex-direction: row !important;
-  align-items: center !important;
-  justify-content: center !important;
+.selectLng__btn span {
+  display: inline-block;
+  margin-left: 4px;
 }
 
 @media (max-width: 1199px) {
